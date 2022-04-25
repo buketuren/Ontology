@@ -1,0 +1,542 @@
+<?xml version="1.0"?>
+<rdf:RDF xmlns="urn:webprotege:ontology:05908ddc-6ffd-45d7-bd94-3f6e69e24861#"
+     xml:base="urn:webprotege:ontology:05908ddc-6ffd-45d7-bd94-3f6e69e24861"
+     xmlns:dc="http://purl.org/dc/elements/1.1/"
+     xmlns:owl="http://www.w3.org/2002/07/owl#"
+     xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+     xmlns:xml="http://www.w3.org/XML/1998/namespace"
+     xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
+     xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#">
+    <owl:Ontology rdf:about="urn:webprotege:ontology:05908ddc-6ffd-45d7-bd94-3f6e69e24861"/>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Annotation properties
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    
+
+
+    <!-- http://purl.org/dc/elements/1.1/contributor -->
+
+    <owl:AnnotationProperty rdf:about="http://purl.org/dc/elements/1.1/contributor"/>
+    
+
+
+    <!-- http://purl.org/dc/elements/1.1/date -->
+
+    <owl:AnnotationProperty rdf:about="http://purl.org/dc/elements/1.1/date"/>
+    
+
+
+    <!-- http://purl.org/dc/elements/1.1/description -->
+
+    <owl:AnnotationProperty rdf:about="http://purl.org/dc/elements/1.1/description"/>
+    
+
+
+    <!-- http://purl.org/dc/elements/1.1/format -->
+
+    <owl:AnnotationProperty rdf:about="http://purl.org/dc/elements/1.1/format"/>
+    
+
+
+    <!-- http://purl.org/dc/elements/1.1/language -->
+
+    <owl:AnnotationProperty rdf:about="http://purl.org/dc/elements/1.1/language"/>
+    
+
+
+    <!-- http://purl.org/dc/elements/1.1/publisher -->
+
+    <owl:AnnotationProperty rdf:about="http://purl.org/dc/elements/1.1/publisher"/>
+    
+
+
+    <!-- http://purl.org/dc/elements/1.1/subject -->
+
+    <owl:AnnotationProperty rdf:about="http://purl.org/dc/elements/1.1/subject"/>
+    
+
+
+    <!-- http://purl.org/dc/elements/1.1/title -->
+
+    <owl:AnnotationProperty rdf:about="http://purl.org/dc/elements/1.1/title"/>
+    
+
+
+    <!-- http://purl.org/dc/elements/1.1/type -->
+
+    <owl:AnnotationProperty rdf:about="http://purl.org/dc/elements/1.1/type"/>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Classes
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    
+
+
+    <!-- http://webprotege.stanford.edu/R5q5RW07ZwHApU0Th0yUVo -->
+
+    <owl:Class rdf:about="http://webprotege.stanford.edu/R5q5RW07ZwHApU0Th0yUVo">
+        <rdfs:label xml:lang="en">Books</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://webprotege.stanford.edu/R7iH3LBO5VTeFGjbT5SHAO0 -->
+
+    <owl:Class rdf:about="http://webprotege.stanford.edu/R7iH3LBO5VTeFGjbT5SHAO0">
+        <rdfs:subClassOf rdf:resource="http://webprotege.stanford.edu/RFS9StgF2hBMqAaqb0zmOj"/>
+        <dc:contributor xml:lang="en">Leon Trotsky</dc:contributor>
+        <dc:date rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1980</dc:date>
+        <dc:description xml:lang="en">Regarded by many as among the most powerful works of history ever written, The History of the Russian Revolution offers an unparalleled account of one of the most pivotal and hotly debated events in world history. This book presents, from the perspective of one of its central actors, the profound liberating character of the early Russian Revolution.</dc:description>
+        <dc:format xml:lang="en">Printed</dc:format>
+        <dc:language xml:lang="en">English</dc:language>
+        <dc:publisher xml:lang="en">Pathfinder Press</dc:publisher>
+        <dc:subject xml:lang="en">Rusia History</dc:subject>
+        <dc:subject xml:lang="en">Rusian Revolution</dc:subject>
+        <dc:title xml:lang="en">History of the Russian Revolution</dc:title>
+        <dc:type xml:lang="en">Text</dc:type>
+        <rdfs:label xml:lang="en">History of the Russian Revolution</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://webprotege.stanford.edu/R81EZzlT1FLa2LEO84cn7cZ -->
+
+    <owl:Class rdf:about="http://webprotege.stanford.edu/R81EZzlT1FLa2LEO84cn7cZ">
+        <rdfs:subClassOf rdf:resource="http://webprotege.stanford.edu/RBcDOwd1ZGC4GHm3Rr6Gd4b"/>
+        <dc:contributor xml:lang="en">Ted Morgan</dc:contributor>
+        <dc:date rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1993</dc:date>
+        <dc:description xml:lang="en">Ted Morgan&apos;s &quot;Wilderness at Dawn&quot; is one of a crop of North American colonial histories published since 1990. Rather than a comprehensive history, it is a series of incidents that add up to a very readable whole. Morgan begins with pre-Columbian history and goes on to relate the experiences of the Spanish, French, Dutch, and various flavors of English colonies. This book addresses the problems of post-Revolutionary War colonization, including chapters about the appalling dangers of trans-Appalachian settlement and about how the Old Northwest was surveyed.</dc:description>
+        <dc:format xml:lang="en">Published</dc:format>
+        <dc:language xml:lang="en">English</dc:language>
+        <dc:publisher xml:lang="en">Simon &amp; Schuster</dc:publisher>
+        <dc:subject xml:lang="en">American History</dc:subject>
+        <dc:subject xml:lang="en">North American History</dc:subject>
+        <dc:title xml:lang="en">Wilderness at Dawn: The Settling of the North American Continent</dc:title>
+        <dc:type xml:lang="en">Text</dc:type>
+        <rdfs:label xml:lang="en">Wilderness at Dawn: The Settling of the North American Continent</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://webprotege.stanford.edu/R8PdjI2K18Tl0pdRX6Nx5Da -->
+
+    <owl:Class rdf:about="http://webprotege.stanford.edu/R8PdjI2K18Tl0pdRX6Nx5Da">
+        <rdfs:subClassOf rdf:resource="http://webprotege.stanford.edu/RDuOANUOEVmG5KWAkWYInGM"/>
+        <rdfs:label xml:lang="en">Asia History Books</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://webprotege.stanford.edu/R8PeTTzeywn99eDSNYzeZNH -->
+
+    <owl:Class rdf:about="http://webprotege.stanford.edu/R8PeTTzeywn99eDSNYzeZNH">
+        <rdfs:subClassOf rdf:resource="http://webprotege.stanford.edu/R8se1guoIKmVhxlbkHZV4LK"/>
+        <dc:contributor xml:lang="tr">Halil İnalcık</dc:contributor>
+        <dc:date rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">2017</dc:date>
+        <dc:description rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Osmanlı Tarihi ile ilgili araştırma yazılarının bir araya getirilmesi ile oluşturulmuştur. Kitapta, Osmanlı tarihindeki olaylar ve kişiler farklı boyutlarıyla ele alınmış ve rivayetlerin efsane mi yoksa gerçek mi olduğu kaynakları ile irdelenmiştir. Kitapta toplam on sekiz araştırma konusu ele alınmıştır.</dc:description>
+        <dc:format xml:lang="tr">Basılı</dc:format>
+        <dc:language xml:lang="tr">Türkçe</dc:language>
+        <dc:publisher xml:lang="tr">Kronik Kitap</dc:publisher>
+        <dc:subject xml:lang="tr">Osmanlı Tarihi</dc:subject>
+        <dc:subject xml:lang="tr">Türk Tarihi</dc:subject>
+        <dc:title xml:lang="tr">Osmanlı Tarihinde Efsaneler ve Gerçekler</dc:title>
+        <dc:type xml:lang="tr">Metin</dc:type>
+        <rdfs:label xml:lang="en">Osmanlı Tarihinde Efsaneler ve Gerçekler</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://webprotege.stanford.edu/R8se1guoIKmVhxlbkHZV4LK -->
+
+    <owl:Class rdf:about="http://webprotege.stanford.edu/R8se1guoIKmVhxlbkHZV4LK">
+        <rdfs:subClassOf rdf:resource="http://webprotege.stanford.edu/RDuOANUOEVmG5KWAkWYInGM"/>
+        <rdfs:label xml:lang="en">Turkish History Books</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://webprotege.stanford.edu/R9laZQJHCAKTrsHJkLmewF5 -->
+
+    <owl:Class rdf:about="http://webprotege.stanford.edu/R9laZQJHCAKTrsHJkLmewF5">
+        <rdfs:subClassOf rdf:resource="http://webprotege.stanford.edu/RBtoRWaLzLBRhXHB0DvwlGq"/>
+        <dc:contributor xml:lang="en">Martin Meredith</dc:contributor>
+        <dc:date xml:lang="en">2016</dc:date>
+        <dc:description xml:lang="en">Africa has been coveted for its riches ever since the era of the pharaohs. In past centuries, it was the lure of gold, ivory, and slaves that drew fortune seekers, merchant adventurers, and conquerors from afar. In modern times, the focus of attention is on oil, diamonds, and other valuable minerals. In this vast and vivid panorama of history, Martin Meredith follows the fortunes of Africa over a period of 5,000 years. He traces the rise and fall of ancient kingdoms and empires, the spread of Christianity and Islam, the enduring quest for gold and other riches, the exploits of explorers and missionaries, and the impact of European colonization. He examines, too, the fate of modern African states and concludes with a glimpse of their future. His cast of characters includes religious leaders, mining magnates, warlords, dictators, and many other legendary figures, among them Mansa Musa, ruler of the medieval Mali Empire, said to be the richest man the world has ever known. This is history on an epic scale.</dc:description>
+        <dc:format xml:lang="en">Printed</dc:format>
+        <dc:language xml:lang="en">English</dc:language>
+        <dc:publisher xml:lang="en">Public Affairs</dc:publisher>
+        <dc:subject xml:lang="en">Africa Economic conditions</dc:subject>
+        <dc:subject xml:lang="en">Africa History</dc:subject>
+        <dc:title xml:lang="en">The Fortunes of Africa: A 5000-Year History of Wealth, Greed, and Endeavor</dc:title>
+        <dc:type xml:lang="en">Text</dc:type>
+        <rdfs:label xml:lang="en">The Fortunes of Africa: A 5000-Year History of Wealth, Greed, and Endeavor</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://webprotege.stanford.edu/R9pnl6bDlUNfO319GSLVo14 -->
+
+    <owl:Class rdf:about="http://webprotege.stanford.edu/R9pnl6bDlUNfO319GSLVo14">
+        <rdfs:subClassOf rdf:resource="http://webprotege.stanford.edu/R8se1guoIKmVhxlbkHZV4LK"/>
+        <dc:contributor xml:lang="en">İ. Hakkı Sunata</dc:contributor>
+        <dc:date rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">2019</dc:date>
+        <dc:description rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Yazar, Kurtuluş Savaşı sırasında Anadolu, Ege, Marmara bölgelerinde halkın yaşadığı sıkıntıları, kendi yaşadığı korku ve endişeyi ele almıştır. Savaş süresi boyunca Türk halkının ve Türk askerinin yaşadığı tüm olayları kendi anlatımıyla ele almıştır.</dc:description>
+        <dc:format xml:lang="tr">Basılı</dc:format>
+        <dc:language xml:lang="tr">Turkish</dc:language>
+        <dc:publisher xml:lang="tr">İş Bankası Kültür Yayınları</dc:publisher>
+        <dc:subject xml:lang="tr">Kurtuluş Savaşı</dc:subject>
+        <dc:subject xml:lang="tr">Türk Tarihi</dc:subject>
+        <dc:title xml:lang="tr">İstanbul&apos;da İşgal Yılları</dc:title>
+        <dc:type xml:lang="tr">Metin</dc:type>
+        <rdfs:label xml:lang="en">İstanbul&apos;da İşgal Yılları</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://webprotege.stanford.edu/R9vRmncrNRhSYGTaRXnkGHf -->
+
+    <owl:Class rdf:about="http://webprotege.stanford.edu/R9vRmncrNRhSYGTaRXnkGHf">
+        <rdfs:subClassOf rdf:resource="http://webprotege.stanford.edu/RBtoRWaLzLBRhXHB0DvwlGq"/>
+        <dc:contributor xml:lang="en">Martin Dugard</dc:contributor>
+        <dc:date rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">2004</dc:date>
+        <dc:description xml:lang="en">Explorer Dr. It chronicles the disappearance of David Livingstone while searching for the source of the Nile, the search for him by journalist Henry Morton Stanley, and the individual journeys of two men in uncharted Africa and the history of Africa.</dc:description>
+        <dc:format xml:lang="en">Printed</dc:format>
+        <dc:language xml:lang="en">English</dc:language>
+        <dc:publisher xml:lang="en">Crown Publishing Group</dc:publisher>
+        <dc:subject xml:lang="en">Africa History</dc:subject>
+        <dc:subject xml:lang="en">Southern Africa History</dc:subject>
+        <dc:title xml:lang="en">Into Africa: The Epic Adventures of Stanley and Livingstone</dc:title>
+        <dc:type xml:lang="en">Text</dc:type>
+        <rdfs:label xml:lang="en">Into Africa: The Epic Adventures of Stanley and Livingstone</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://webprotege.stanford.edu/R9vsU6KxqHCzoGDqfcJToAS -->
+
+    <owl:Class rdf:about="http://webprotege.stanford.edu/R9vsU6KxqHCzoGDqfcJToAS">
+        <rdfs:subClassOf rdf:resource="http://webprotege.stanford.edu/RFS9StgF2hBMqAaqb0zmOj"/>
+        <dc:contributor xml:lang="en">Paul D&apos;Anieri</dc:contributor>
+        <dc:date rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">2019</dc:date>
+        <dc:description xml:lang="en">D&apos;Anieri explores the dynamics within Ukraine, between Ukraine and Russia, and between Russia and the West, that emerged with the collapse of the Soviet Union and eventually led to war in 2014. Proceeding chronologically, this book shows how Ukraine&apos;s separation from Russia in 1991, at the time called a &apos;civilized divorce&apos;, led to what many are now calling &apos;a new Cold War&apos;. He argues that the conflict has worsened because of three underlying factors - the security dilemma, the impact of democratization on geopolitics, and the incompatible goals of a post-Cold War Europe. Rather than a peaceful situation that was squandered, D&apos;Anieri argues that these were deep-seated pre-existing disagreements that could not be bridged, with concerning implications for the resolution of the Ukraine conflict. The book also shows how this war fits into broader patterns of contemporary international conflict and should therefore appeal to researchers working on the Russia-Ukraine conflict, Russia&apos;s relations with the West, and conflict and geopolitics more generally.</dc:description>
+        <dc:format xml:lang="en">Printed</dc:format>
+        <dc:language xml:lang="en">English</dc:language>
+        <dc:publisher xml:lang="en">‎ Cambridge University Press</dc:publisher>
+        <dc:subject xml:lang="en">Rusia History</dc:subject>
+        <dc:subject xml:lang="en">Rusia Ukranie War History</dc:subject>
+        <dc:title xml:lang="en">Ukraine and Russia: From Civilized Divorce to Uncivil War</dc:title>
+        <dc:type xml:lang="en">Text</dc:type>
+        <rdfs:label xml:lang="en">Ukraine and Russia: From Civilized Divorce to Uncivil War</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://webprotege.stanford.edu/RB22ONAdnrHricj3kMUJI4t -->
+
+    <owl:Class rdf:about="http://webprotege.stanford.edu/RB22ONAdnrHricj3kMUJI4t">
+        <rdfs:subClassOf rdf:resource="http://webprotege.stanford.edu/R8PdjI2K18Tl0pdRX6Nx5Da"/>
+        <dc:contributor xml:lang="en">Barbara Demick</dc:contributor>
+        <dc:date rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">2015</dc:date>
+        <dc:description xml:lang="en">Follows the lives of six North Koreans over fifteen years, a chaotic period that saw the rise to power of Kim Jong Il and the devastation of a famine that killed one-fifth of the population, illustrating what it means to live under the most repressive totalitarian regime today.</dc:description>
+        <dc:format xml:lang="en">Printed</dc:format>
+        <dc:language xml:lang="en">English</dc:language>
+        <dc:publisher xml:lang="en">Random House</dc:publisher>
+        <dc:subject xml:lang="en">Asia History</dc:subject>
+        <dc:subject xml:lang="en">Koreans History</dc:subject>
+        <dc:title xml:lang="en">Nothing to Envy: Ordinary Lives in North Korea</dc:title>
+        <dc:type xml:lang="en">Text</dc:type>
+        <rdfs:label xml:lang="en">Nothing to Envy: Ordinary Lives in North Korea</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://webprotege.stanford.edu/RBIGlTfrfrhaoJ9awPNzFnj -->
+
+    <owl:Class rdf:about="http://webprotege.stanford.edu/RBIGlTfrfrhaoJ9awPNzFnj">
+        <rdfs:subClassOf rdf:resource="http://webprotege.stanford.edu/RBtoRWaLzLBRhXHB0DvwlGq"/>
+        <dc:contributor xml:lang="en">Robin D.G. Kelley</dc:contributor>
+        <dc:date rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">2003</dc:date>
+        <dc:description xml:lang="en">Focusing on the visions of activists from C. L. R. James to Aime Cesaire and Malcolm X, Kelley writes of the hope that Communism offered, the mindscapes of Surrealism, the transformative potential of radical feminism, and of the four-hundred-year-old dream of reparations for slavery and Jim Crow. From&apos;the preeminent historian of black popular culture&apos; (Cornel West), an inspiring work on the power of imagination to transform society.</dc:description>
+        <dc:format xml:lang="en">Printed</dc:format>
+        <dc:language rdf:datatype="http://www.w3.org/2001/XMLSchema#string">English</dc:language>
+        <dc:publisher xml:lang="en">Beacon Press</dc:publisher>
+        <dc:subject rdf:datatype="http://www.w3.org/2001/XMLSchema#string">20th century of Africa History</dc:subject>
+        <dc:subject xml:lang="en">Africa History</dc:subject>
+        <dc:title xml:lang="en">Freedom Dreams: The Black Radical Imagination</dc:title>
+        <dc:type rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Text</dc:type>
+        <rdfs:label xml:lang="en">Freedom Dreams: The Black Radical Imagination</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://webprotege.stanford.edu/RBcDOwd1ZGC4GHm3Rr6Gd4b -->
+
+    <owl:Class rdf:about="http://webprotege.stanford.edu/RBcDOwd1ZGC4GHm3Rr6Gd4b">
+        <rdfs:subClassOf rdf:resource="http://webprotege.stanford.edu/RDuOANUOEVmG5KWAkWYInGM"/>
+        <rdfs:label xml:lang="en">America History Books</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://webprotege.stanford.edu/RBl8X9EXDP0uiZZioR028r7 -->
+
+    <owl:Class rdf:about="http://webprotege.stanford.edu/RBl8X9EXDP0uiZZioR028r7">
+        <rdfs:subClassOf rdf:resource="http://webprotege.stanford.edu/RFS9StgF2hBMqAaqb0zmOj"/>
+        <dc:contributor xml:lang="en">Alexander Werth</dc:contributor>
+        <dc:date rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1997</dc:date>
+        <dc:description xml:lang="en">In this widely acclaimed history of a country at war, Alexander Werth unfolds in startling human terms the story of the Russian people and their leaders in the Soviet conflict with the Nazis from the disasters of the Second World War to the beginnings of the Cold War. Himself an eyewitness to the shattering historical drama he vividly records, Werth offers an intensely detailed chronicle of the events that exceeded in savagery and hatred any other on Russian soil. From the hardships of the citizenry to the sweep of massive military operations to the corridors of diplomacy, this modern classic captures every aspect of the grim but heroic Soviet-German war that turned Russia into the most powerful nation in the Old World.</dc:description>
+        <dc:format xml:lang="en">Printed</dc:format>
+        <dc:language xml:lang="en">English</dc:language>
+        <dc:publisher xml:lang="en">Carroll &amp; Graf Publishers</dc:publisher>
+        <dc:subject xml:lang="en">Rusia History</dc:subject>
+        <dc:subject xml:lang="en">Rusia War History</dc:subject>
+        <dc:title xml:lang="en">Russia at War: 1941-1945</dc:title>
+        <dc:type xml:lang="en">Text</dc:type>
+        <rdfs:label xml:lang="en">Russia at War: 1941-1945</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://webprotege.stanford.edu/RBtoRWaLzLBRhXHB0DvwlGq -->
+
+    <owl:Class rdf:about="http://webprotege.stanford.edu/RBtoRWaLzLBRhXHB0DvwlGq">
+        <rdfs:subClassOf rdf:resource="http://webprotege.stanford.edu/RDuOANUOEVmG5KWAkWYInGM"/>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Africa History Books</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://webprotege.stanford.edu/RBz6YHEkomd0aQpfC6b5WnO -->
+
+    <owl:Class rdf:about="http://webprotege.stanford.edu/RBz6YHEkomd0aQpfC6b5WnO">
+        <rdfs:subClassOf rdf:resource="http://webprotege.stanford.edu/R8se1guoIKmVhxlbkHZV4LK"/>
+        <dc:contributor xml:lang="tr">Ali Fuat Bilkan</dc:contributor>
+        <dc:date rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">2002</dc:date>
+        <dc:description xml:lang="tr">17. yüzyılda Osmanlı sultanlarına yazılan tarihi olayları konu alan kaside, tarih ve kıt&apos;alar ele alınmıştır. O yıllarda şairlerin padişahlar hakkında ne düşündüklerini ve düşündüklerini nasıl ifade ettiklerine dair incelemeler yer almaktadır.</dc:description>
+        <dc:format xml:lang="tr">Basılı</dc:format>
+        <dc:language xml:lang="tr">Türkçe</dc:language>
+        <dc:publisher xml:lang="tr">Akçağ Yayınları</dc:publisher>
+        <dc:subject xml:lang="tr">17. Yüzyıl Osmanlı</dc:subject>
+        <dc:subject xml:lang="tr">Osmanlı Tarihi</dc:subject>
+        <dc:title xml:lang="tr">XVII.Yüzyılda Osmanlı Düşünce Hayatı</dc:title>
+        <dc:type xml:lang="tr">Metin</dc:type>
+        <rdfs:label xml:lang="en">XVII.Yüzyılda Osmanlı Düşünce Hayatı</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://webprotege.stanford.edu/RC8QqghAchXA46SodEf5f9i -->
+
+    <owl:Class rdf:about="http://webprotege.stanford.edu/RC8QqghAchXA46SodEf5f9i">
+        <rdfs:subClassOf rdf:resource="http://webprotege.stanford.edu/R8PdjI2K18Tl0pdRX6Nx5Da"/>
+        <dc:contributor xml:lang="en">Iris Chang</dc:contributor>
+        <dc:date rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1998</dc:date>
+        <dc:description xml:lang="en">This book tells the story from three perspectives: of the Japanese soldiers who performed it, of the Chinese civilians who endured it, and of a group of Europeans and Americans who refused to abandon the city and were able to create a safety zone that saved many.</dc:description>
+        <dc:format xml:lang="en">Printed</dc:format>
+        <dc:language xml:lang="en">English</dc:language>
+        <dc:publisher xml:lang="en">Basic Books</dc:publisher>
+        <dc:subject xml:lang="en">Asia History</dc:subject>
+        <dc:subject xml:lang="en">Asia War History</dc:subject>
+        <dc:title xml:lang="en">The Rape of Nanking</dc:title>
+        <dc:type xml:lang="en">Text</dc:type>
+        <rdfs:label xml:lang="en">The Rape of Nanking</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://webprotege.stanford.edu/RCSRqAxJ3kUsdUykYq0HZTI -->
+
+    <owl:Class rdf:about="http://webprotege.stanford.edu/RCSRqAxJ3kUsdUykYq0HZTI">
+        <rdfs:subClassOf rdf:resource="http://webprotege.stanford.edu/RBcDOwd1ZGC4GHm3Rr6Gd4b"/>
+        <dc:contributor xml:lang="en">Howard Zinn</dc:contributor>
+        <dc:date rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">2015</dc:date>
+        <dc:description xml:lang="en">Known for its lively, clear prose as well as its scholarly research, itis the only volume to tell America&apos;s story from the point of view of—and in the words of—America&apos;s women, factory workers, African-Americans, Native Americans, the working poor, and immigrant laborers. As Zinn shows, many of our country&apos;s greatest battles—the fights for a fair wage, an eight-hour workday, child-labor laws, health and safety standards, universal suffrage, women&apos;s rights, racial equality—were carried out at the grassroots level, against bloody resistance.</dc:description>
+        <dc:format xml:lang="en">Printed</dc:format>
+        <dc:language xml:lang="en">English</dc:language>
+        <dc:publisher xml:lang="en">Harper Perennial Modern Classics</dc:publisher>
+        <dc:subject xml:lang="en">America&apos;s people history</dc:subject>
+        <dc:subject xml:lang="en">United States History</dc:subject>
+        <dc:title xml:lang="en">A People&apos;s History of the United States Paperback</dc:title>
+        <dc:type xml:lang="en">Text</dc:type>
+        <rdfs:label xml:lang="en">A People&apos;s History of the United States Paperback</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://webprotege.stanford.edu/RCUbxzFHVRq4GTKLyZCnCVT -->
+
+    <owl:Class rdf:about="http://webprotege.stanford.edu/RCUbxzFHVRq4GTKLyZCnCVT">
+        <rdfs:subClassOf rdf:resource="http://webprotege.stanford.edu/R8PdjI2K18Tl0pdRX6Nx5Da"/>
+        <dc:contributor xml:lang="en">John Hersey</dc:contributor>
+        <dc:date rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1989</dc:date>
+        <dc:description xml:lang="en">Hiroshima is the story of six people--a clerk, a widowed seamstress, a physician, a Methodist minister, a young surgeon, and a German Catholic priest--who lived through the greatest single manmade disaster in history. In vivid and indelible prose, Pulitzer Prize-winner John Hersey traces the stories of these half-dozen individuals from 8:15 a.m. on August 6, 1945, when Hiroshima was destroyed by the first atomic bomb ever dropped on a city, through the hours and days that followed. Almost four decades after the original publication of this celebrated book, Hersey went back to Hiroshima in search of the people whose stories he had told, and his account of what he discovered is now the eloquent and moving final chapter of Hiroshima</dc:description>
+        <dc:format xml:lang="en">Printed</dc:format>
+        <dc:language xml:lang="en">English</dc:language>
+        <dc:publisher xml:lang="en">Vintage</dc:publisher>
+        <dc:subject xml:lang="en">Asia History</dc:subject>
+        <dc:subject xml:lang="en">Japan War</dc:subject>
+        <dc:title xml:lang="en">Hiroshima</dc:title>
+        <dc:type xml:lang="en">Text</dc:type>
+        <rdfs:label xml:lang="en">Hiroshima</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://webprotege.stanford.edu/RCocVfQu84yqzkB051CdNtB -->
+
+    <owl:Class rdf:about="http://webprotege.stanford.edu/RCocVfQu84yqzkB051CdNtB">
+        <rdfs:subClassOf rdf:resource="http://webprotege.stanford.edu/RFS9StgF2hBMqAaqb0zmOj"/>
+        <dc:contributor xml:lang="en">Robert English</dc:contributor>
+        <dc:date rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">2000</dc:date>
+        <dc:description xml:lang="en">An intriguing &quot;intellectual portrait&quot; of a generation of Soviet reformers, this book is also a fascinating case study of how ideas can change the course of history. In most analyses of the Cold War&apos;s end the ideological aspects of Gorbachev&apos;s &quot;new thinking&quot; are treated largely as incidental to the broader considerations of poweras gloss on what was essentially a retreat forced by crisis and decline. Robert English makes a major contribution by demonstrating that Gorbachev&apos;s foreign policy was in fact the result of an intellectual revolution. English analyzes the rise of a liberal policy-academic elite and its impact on the Cold War&apos;s end.</dc:description>
+        <dc:format xml:lang="en">Printed</dc:format>
+        <dc:language xml:lang="en">English</dc:language>
+        <dc:publisher xml:lang="en">Columbia University Press</dc:publisher>
+        <dc:subject xml:lang="en">Cold War</dc:subject>
+        <dc:subject xml:lang="en">Rusia History</dc:subject>
+        <dc:title xml:lang="en">Russia and the Idea of the West: Gorbachev, Intellectuals, and the End of the Cold War</dc:title>
+        <dc:type xml:lang="en">Text</dc:type>
+        <rdfs:label xml:lang="en">Russia and the Idea of the West: Gorbachev, Intellectuals, and the End of the Cold War</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://webprotege.stanford.edu/RDIBVt8HsFOFGQbA2wikpeI -->
+
+    <owl:Class rdf:about="http://webprotege.stanford.edu/RDIBVt8HsFOFGQbA2wikpeI">
+        <rdfs:subClassOf rdf:resource="http://webprotege.stanford.edu/RBtoRWaLzLBRhXHB0DvwlGq"/>
+        <dc:contributor xml:lang="en">John Henrik Clarke</dc:contributor>
+        <dc:date xml:lang="en">2011</dc:date>
+        <dc:format xml:lang="en">Printed</dc:format>
+        <dc:language xml:lang="en">English</dc:language>
+        <dc:publisher xml:lang="en">EWorld Inc</dc:publisher>
+        <dc:subject xml:lang="en">Capitalism of Africa History.</dc:subject>
+        <dc:subject rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Slave trade in Africa</dc:subject>
+        <dc:title xml:lang="en">Christopher Columbus and the Afrikan Holocaust: Slavery and the Rise of European Capitalism</dc:title>
+        <dc:type xml:lang="en">Text</dc:type>
+        <rdfs:label xml:lang="en">Christopher Columbus and the Afrikan Holocaust: Slavery and the Rise of European Capitalism</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://webprotege.stanford.edu/RDlvxsvXG2ObX8DvEJPa8gT -->
+
+    <owl:Class rdf:about="http://webprotege.stanford.edu/RDlvxsvXG2ObX8DvEJPa8gT">
+        <rdfs:subClassOf rdf:resource="http://webprotege.stanford.edu/R5q5RW07ZwHApU0Th0yUVo"/>
+        <rdfs:label xml:lang="en">History Books</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://webprotege.stanford.edu/RDuOANUOEVmG5KWAkWYInGM -->
+
+    <owl:Class rdf:about="http://webprotege.stanford.edu/RDuOANUOEVmG5KWAkWYInGM">
+        <rdfs:subClassOf rdf:resource="http://webprotege.stanford.edu/RDlvxsvXG2ObX8DvEJPa8gT"/>
+        <rdfs:label xml:lang="en">Types of History</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://webprotege.stanford.edu/RDyLf00Of9zeVdpuwWN4JAu -->
+
+    <owl:Class rdf:about="http://webprotege.stanford.edu/RDyLf00Of9zeVdpuwWN4JAu">
+        <rdfs:subClassOf rdf:resource="http://webprotege.stanford.edu/RBcDOwd1ZGC4GHm3Rr6Gd4b"/>
+        <dc:contributor xml:lang="en">H. W. Brands</dc:contributor>
+        <dc:date rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">2021</dc:date>
+        <dc:description xml:lang="en">Long before the first battle of the American Revolution, the conflict between Loyalists and Patriots swept through all facets of American society, with colonists, Native Americans, and the enslaved all forced to choose a side. Would this constitute America’s first civil war, beginning before the Revolution had even been won? Pulitzer Prize finalist H.W. Brands examines this question and looks at the deep-seated divisions that made up the war before the war—between Loyalists and Patriots, families, friends, and neighbors.</dc:description>
+        <dc:format xml:lang="en">Printed</dc:format>
+        <dc:language xml:lang="en">English</dc:language>
+        <dc:publisher xml:lang="en">‎ Doubleday</dc:publisher>
+        <dc:subject xml:lang="en">America Civil War</dc:subject>
+        <dc:subject xml:lang="en">America History</dc:subject>
+        <dc:title xml:lang="en">Our First Civil War: Patriots and Loyalists in the American Revolution</dc:title>
+        <dc:type xml:lang="en">Text</dc:type>
+        <rdfs:label xml:lang="en">Our First Civil War: Patriots and Loyalists in the American Revolution</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://webprotege.stanford.edu/RFS9StgF2hBMqAaqb0zmOj -->
+
+    <owl:Class rdf:about="http://webprotege.stanford.edu/RFS9StgF2hBMqAaqb0zmOj">
+        <rdfs:subClassOf rdf:resource="http://webprotege.stanford.edu/RDuOANUOEVmG5KWAkWYInGM"/>
+        <rdfs:label xml:lang="en">Russia History Books</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://webprotege.stanford.edu/RTtAElPjsIzEzX4iQmJf7s -->
+
+    <owl:Class rdf:about="http://webprotege.stanford.edu/RTtAElPjsIzEzX4iQmJf7s">
+        <rdfs:subClassOf rdf:resource="http://webprotege.stanford.edu/R8se1guoIKmVhxlbkHZV4LK"/>
+        <dc:contributor xml:lang="tr">İlber Ortaylı</dc:contributor>
+        <dc:date rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">2018</dc:date>
+        <dc:description rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Birinci Dünya Savaşı’nın sonuçları ve İkinci Dünya Savaşı’ndaki denge politikasına, İran, Irak, Suriye ilişkilerinden ABD, Rusya ve Avrupa Birliği politikasına, askeri darbelerden, eğitim sistemine kadar birçok konuyu ele alıyor.</dc:description>
+        <dc:format xml:lang="tr">Basılı</dc:format>
+        <dc:language xml:lang="tr">Türkçe</dc:language>
+        <dc:publisher xml:lang="tr">Kronik Kitap</dc:publisher>
+        <dc:subject xml:lang="tr">Osmanlı Tarihi</dc:subject>
+        <dc:subject xml:lang="tr">Türkiye Tarihi</dc:subject>
+        <dc:title xml:lang="tr">Türkiye’nin Yakın Tarihi</dc:title>
+        <dc:type xml:lang="tr">Metin</dc:type>
+        <rdfs:label xml:lang="en">Türkiye’nin Yakın Tarihi</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://webprotege.stanford.edu/RqjLRru2uutfab9zQUOX5Z -->
+
+    <owl:Class rdf:about="http://webprotege.stanford.edu/RqjLRru2uutfab9zQUOX5Z">
+        <rdfs:subClassOf rdf:resource="http://webprotege.stanford.edu/RBcDOwd1ZGC4GHm3Rr6Gd4b"/>
+        <dc:contributor xml:lang="en">Eric Foner</dc:contributor>
+        <dc:date rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1999</dc:date>
+        <dc:description xml:lang="en">From the Revolution to our own time, freedom has been America&apos;s strongest cultural bond and its most perilous fault line, a birthright for some Americans and a cruel mockery for others.</dc:description>
+        <dc:format xml:lang="en">Printed</dc:format>
+        <dc:language xml:lang="en">English</dc:language>
+        <dc:publisher xml:lang="en">W. W. Norton &amp; Company</dc:publisher>
+        <dc:subject xml:lang="en">American Freedom History</dc:subject>
+        <dc:subject xml:lang="en">American History</dc:subject>
+        <dc:title xml:lang="en">The Story of American Freedom</dc:title>
+        <dc:type xml:lang="en">Text</dc:type>
+        <rdfs:label xml:lang="en">The Story of American Freedom</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://webprotege.stanford.edu/RrZzdyWqGem9WkeCTcflvu -->
+
+    <owl:Class rdf:about="http://webprotege.stanford.edu/RrZzdyWqGem9WkeCTcflvu">
+        <rdfs:subClassOf rdf:resource="http://webprotege.stanford.edu/R8PdjI2K18Tl0pdRX6Nx5Da"/>
+        <dc:contributor xml:lang="en">Peter Hopkirk</dc:contributor>
+        <dc:date rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">2010</dc:date>
+        <dc:description xml:lang="en">This book tells the story of the Great Game through the exploits of the young officers, both British and Russian, who risked their lives playing it. Disguised as holy men or native horsetraders, they mapped secret passes, gathered intelligence, and sought the allegiance of powerful khans. Some never returned.</dc:description>
+        <dc:format xml:lang="en">Printed</dc:format>
+        <dc:language xml:lang="en">English</dc:language>
+        <dc:publisher xml:lang="en">Kodansha International</dc:publisher>
+        <dc:subject xml:lang="en">Asia History</dc:subject>
+        <dc:subject xml:lang="en">Asia War History</dc:subject>
+        <dc:title xml:lang="en">The Great Game: The Struggle for Empire in Central Asia</dc:title>
+        <dc:type xml:lang="en">Text</dc:type>
+        <rdfs:label xml:lang="en">The Great Game: The Struggle for Empire in Central Asia</rdfs:label>
+    </owl:Class>
+</rdf:RDF>
+
+
+
+<!-- Generated by the OWL API (version 4.5.13) https://github.com/owlcs/owlapi -->
+
